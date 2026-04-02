@@ -56,6 +56,7 @@ const AuthPage = () => {
           email,
           password,
           options: {
+            emailRedirectTo: window.location.origin + "/Paceone/",
             data: {
               full_name: fullName,
               goal,
