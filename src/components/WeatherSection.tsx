@@ -10,7 +10,7 @@ interface WeatherData {
   main: string;
 }
 
-const API_KEY = "b0e45aa840f2db0a0c3a68f78c1e33f6";
+const API_KEY = "44ac8e23bfcbd81b9d3521145559e365";
 
 const getWeatherEmoji = (main: string): string => {
   switch (main.toLowerCase()) {
